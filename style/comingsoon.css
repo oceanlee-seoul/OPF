@@ -1,0 +1,23 @@
+.comingSoon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: #f39220;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.comingSoon h1 {
+  font-size: 70px;
+  font-style: italic;
+}
+
+@media (max-width: 767px) {
+  .comingSoon h1 {
+    font-size: 50px;
+  }
+}

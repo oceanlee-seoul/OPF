@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style/default.css" />
+    <link rel="stylesheet" href="/style/index.css" />
+    <link rel="stylesheet" href="/style/footer.css" />
+    <link
+      rel="shortcut icon"
+      href="/images/ms-icon-144x144.png"
+      type="image/x-icon"
+    />
+    <link rel="icon" href="/images/ms-icon-144x144.png" type="image/x-icon" />
+    <title>OPF™</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="marquee">
+        <ul class="marquee__content">
+          <li>
+            "We are all ordinary people who create something extraordinary."
+          </li>
+          <li>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"We are all ordinary people who create
+            something extraordinary."
+          </li>
+        </ul>
+        <ul aria-hidden="true" class="marquee__content">
+          <li>
+            "We are all ordinary people who create something extraordinary."
+          </li>
+          <li>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"We are all ordinary people who create
+            something extraordinary."
+          </li>
+        </ul>
+      </div>
+      <div class="main">
+        <div class="main__image">
+          <img class="font" src="/images/OPF_LOGO_ONLY_FONT.png" />
+          <img class="logo" src="/images/OPF_LOGO.png" />
+          <a class="main__image__logo_anchor" href="/html/about.html"></a>
+        </div>
+        <div class="page__list">
+          <a href="/html/about.html">about</a>
+          <a href="/html/archive.html">archive</a>
+          <a href="/html/items.html">items</a>
+          <a href="/html/contactus.html">contact us</a>
+        </div>
+      </div>
+      <footer>
+        <div>
+          <a href="https://instagram.com/opf_seoul?igshid=YmMyMTA2M2Y="
+            ><i class="xi-instagram"></i
+          ></a>
+          <span>Ordinary People's Factory™</span>
+          <img class="footer-logo" src="/images/OPF_LOGO_CI_NOTM.png" />
+        </div>
+      </footer>
+    </div>
+    <script>
+      const logoAnchor = document.querySelector(".main__image__logo_anchor");
+      const fontLogo = document.querySelector(".font");
+
+      const onMouseOver = function () {
+        console.log("!");
+        fontLogo.style.opacity = 0;
+      };
+      const onMouseOut = function () {
+        console.log("!");
+        fontLogo.style.opacity = 1;
+      };
+      logoAnchor.addEventListener("mouseover", onMouseOver);
+      logoAnchor.addEventListener("mouseout", onMouseOut);
+    </script>
+  </body>
+</html>

@@ -1,0 +1,47 @@
+footer {
+  position: absolute;
+  bottom: 30px;
+  z-index: 99;
+  width: 100%;
+  background-color: white;
+}
+footer div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+footer .xi-instagram {
+  margin-right: 10px;
+  font-size: 20px;
+}
+footer .xi-instagram:hover {
+  color: #f39220;
+}
+footer span {
+  color: #555;
+  font-size: 15px;
+}
+.footer-logo {
+  width: 18px;
+  height: 18px;
+  margin-left: 10px;
+}
+
+@media (max-width: 767px) {
+  footer span {
+    font-size: 7.5px;
+  }
+  footer .xi-instagram {
+    margin-right: 10px;
+    font-size: 15px;
+  }
+  .footer-logo {
+    width: 15px;
+    height: 15px;
+    margin-left: 10px;
+  }
+  footer {
+    height: 50px;
+  }
+}

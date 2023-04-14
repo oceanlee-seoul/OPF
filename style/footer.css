@@ -1,0 +1,28 @@
+footer {
+  position: absolute;
+  position: fixed;
+  bottom: 30px;
+  background-color: white;
+}
+footer div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+footer .xi-instagram {
+  margin-right: 10px;
+  font-size: 20px;
+}
+footer .xi-instagram:hover {
+  color: #f39220;
+}
+footer span {
+  color: #555;
+  font-size: 15px;
+}
+.footer-logo {
+  width: 18px;
+  height: 18px;
+  margin-left: 10px;
+}
