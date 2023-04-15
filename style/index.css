@@ -8,8 +8,8 @@ body {
   align-items: center;
   position: relative;
 }
-/* ########## MARQUEE CSS ########## */
 
+/* ########## MARQUEE CSS ########## */
 .marquee {
   --gap: 1rem;
   position: relative;
@@ -52,7 +52,6 @@ body {
 }
 
 /* ########## MAIN CSS ########## */
-
 .main {
   display: flex;
   flex-direction: column;
@@ -101,6 +100,6 @@ body {
   color: white;
 }
 
+/* Responsive Layout */
 @media (max-width: 767px) {
-  
 }

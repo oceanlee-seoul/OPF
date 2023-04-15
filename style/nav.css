@@ -41,6 +41,7 @@ nav .gnb a:hover {
   color: white;
 }
 
+/* Responsive Layout */
 @media (max-width: 767px) {
   nav {
     height: 50px;
@@ -51,7 +52,7 @@ nav .gnb a:hover {
     margin-top: 5px;
   }
   nav .gnb a {
-    font-size: 7.5px;
+    font-size: 12px;
     padding: 5px;
     margin: 5px;
   }
