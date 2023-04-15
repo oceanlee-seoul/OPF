@@ -6,20 +6,19 @@ nav .gnb a:nth-child(3) {
 /* ########## ITEMS CSS ########## */
 body {
   position: relative;
-  min-height: 100vh;
-  margin-top: 0;
+  height: calc(100vh - 80px - 50px);
 }
 .container {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  height: 100%;
 }
 .items {
+  height: 100%;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 .items .item {
+  width: 50%;
   margin: 20px;
   text-align: center;
   padding: 20px;
@@ -65,9 +64,14 @@ body {
 }
 
 @media (max-width: 767px) {
+  body {
+    margin-top: 50px;
+    height: calc(100vh - 50px - 30px);
+  }
   .items {
     flex-direction: column;
     justify-content: center;
+    align-items: center;
   }
   .items .item img {
     width: 180px;

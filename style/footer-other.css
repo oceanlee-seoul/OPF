@@ -1,8 +1,8 @@
 footer {
   position: absolute;
   display: inline-block;
-  bottom: 0;
-  padding: 15px;
+  bottom: -50px;
+  height: 50px;
   z-index: 99;
   width: 100%;
   background-color: white;
@@ -10,6 +10,10 @@ footer {
   box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.124);
 }
 footer div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -37,7 +41,8 @@ footer span {
 /* Responsive Layout */
 @media (max-width: 767px) {
   footer {
-    padding: 10px;
+    height: 30px;
+    bottom: -30px;
   }
   footer .fa-brands {
     font-size: 15px;

@@ -3,5 +3,12 @@ nav .gnb a:nth-child(2) {
   color: white;
 }
 body {
-  height: calc(100vh - 80px);
+  height: calc(100vh - 80px - 50px);
+}
+
+@media (max-width: 767px) {
+  body {
+    margin-top: 50px;
+    height: calc(100vh - 50px - 30px);
+  }
 }
