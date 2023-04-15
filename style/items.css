@@ -4,14 +4,15 @@ nav .gnb a:nth-child(3) {
 }
 /* ########## ITEMS CSS ########## */
 body {
-  margin-top: 0;
   position: relative;
+  min-height: 100vh;
+  margin-top: 0;
 }
 .container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 .items {
   display: flex;
@@ -93,12 +94,5 @@ body {
     font-style: normal;
     font-size: 15px;
     color: red;
-  }
-
-  footer {
-    position: absolute;
-    bottom: 0;
-    padding: 15px 0;
-    box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.124);
   }
 }

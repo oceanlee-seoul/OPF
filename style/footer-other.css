@@ -1,9 +1,13 @@
 footer {
   position: absolute;
-  bottom: 30px;
+  display: inline-block;
+  bottom: 0;
+  padding: 15px;
   z-index: 99;
   width: 100%;
   background-color: white;
+  border-top: 1px solid transparent;
+  box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.124);
 }
 footer div {
   display: flex;
@@ -11,11 +15,13 @@ footer div {
   align-items: center;
   text-align: center;
 }
-footer .xi-instagram {
+footer .fa-brands {
+  display: inline-block;
+  margin-top: 4px;
   margin-right: 10px;
   font-size: 20px;
 }
-footer .xi-instagram:hover {
+footer .fa-brands:hover {
   color: #f39220;
 }
 footer span {
@@ -29,19 +35,17 @@ footer span {
 }
 
 @media (max-width: 767px) {
-  footer span {
-    font-size: 7.5px;
+  footer {
+    padding: 10px;
   }
-  footer .xi-instagram {
-    margin-right: 10px;
+  footer .fa-brands {
     font-size: 15px;
   }
-  .footer-logo {
-    width: 15px;
-    height: 15px;
-    margin-left: 10px;
+  footer span {
+    font-size: 12px;
   }
-  footer {
-    height: 50px;
+  .footer-logo {
+    width: 13px;
+    height: 13px;
   }
 }

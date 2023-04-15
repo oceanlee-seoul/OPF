@@ -3,11 +3,5 @@ nav .gnb a:nth-child(2) {
   color: white;
 }
 body {
-  height: 100%;
-}
-footer {
-  position: fixed;
-  bottom: 0;
-  padding: 15px 0;
-  box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.124);
+  height: calc(100vh - 80px);
 }
