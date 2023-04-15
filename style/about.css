@@ -3,8 +3,9 @@ nav .gnb a:nth-child(1) {
   color: white;
 }
 body {
-  height: 100%;
   width: 100%;
+  height: calc(100% - 80px - 50px);
+  margin-bottom: 50px;
 }
 .container {
   width: 100%;
@@ -119,4 +120,12 @@ section {
   width: inherit;
   height: inherit;
   object-fit: cover;
+}
+
+@media (max-width: 767px) {
+  body {
+    height: calc(100% - 50px - 30px);
+    margin-bottom: 30px;
+    margin-top: 50px;
+  }
 }

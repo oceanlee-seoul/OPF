@@ -1,0 +1,39 @@
+nav .gnb a:nth-child(3) {
+  background-color: #f39220;
+  color: white;
+}
+
+/* ########## ITEMS CSS ########## */
+body {
+  position: relative;
+  margin-top: 80px;
+  margin-bottom: 50px;
+  height: calc(100vh - 80px - 50px);
+}
+.container {
+  height: 100%;
+}
+
+.item-list {
+  height: 100%;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.item-list .item {
+  border: 1px solid black;
+  text-align: center;
+  height: 40%;
+  width: 50%;
+}
+
+@media (max-width: 767px) {
+  body {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    height: calc(100vh - 50px - 30px);
+  }
+}
