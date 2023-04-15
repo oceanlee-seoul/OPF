@@ -10,11 +10,11 @@ footer div {
   align-items: center;
   text-align: center;
 }
-footer .xi-instagram {
+footer .fa-brands {
   margin-right: 10px;
   font-size: 20px;
 }
-footer .xi-instagram:hover {
+footer .fa-brands:hover {
   color: #f39220;
 }
 footer span {
