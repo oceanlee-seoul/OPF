@@ -87,7 +87,7 @@ body {
 
 .outofstock {
   font-size: 20px;
-  color: #777;
+  color: crimson;
 }
 .sale {
   color: #777;
@@ -133,10 +133,10 @@ body {
     opacity: 1;
     pointer-events: all;
   }
-  .items .item:last-child span {
+  .items .item span {
     text-decoration: line-through;
   }
-  .items .item:last-child p {
+  .items .item p {
     font-weight: bold;
     color: crimson;
   }
