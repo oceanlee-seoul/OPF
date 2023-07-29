@@ -39,7 +39,7 @@
       <section class="section_about">
         <h2 class="section_title">about</h2>
         <div class="inner_container">
-          <img src="../images/OPF_LOGO_CI.png" />
+          <img class="logoImg" src="../images/OPF_LOGO_CI.png" />
           <div class="texts">
             <h2>ORDINARY</h2>
             <h2>&nbspPEOPLE'S</h2>
@@ -60,17 +60,29 @@
             </div>
           </div>
           <div class="archives_clothes1 size_1">
-            <div><img src="../images/ls-tee.jpeg" alt="" /></div>
-            <div><img src="../images/tttt.jpeg" alt="" /></div>
-            <div><img src="../images/hoooodie.jpeg" alt="" /></div>
+            <div class="animation">
+              <img src="../images/ls-tee.jpeg" alt="" />
+            </div>
+            <div class="animation">
+              <img src="../images/tttt.jpeg" alt="" />
+            </div>
+            <div class="animation">
+              <img src="../images/hoooodie.jpeg" alt="" />
+            </div>
           </div>
           <div class="archives_clothes2 size_1">
-            <div><img src="../images/daeyangWithHoodie.jpeg" alt="" /></div>
-            <div><img src="../images/thumsUp.jpeg" alt="" /></div>
-            <div><img src="../images/seunghyukWithAcene.jpeg" alt="" /></div>
+            <div class="animation">
+              <img src="../images/daeyangWithHoodie.jpeg" alt="" />
+            </div>
+            <div class="animation">
+              <img src="../images/thumsUp.jpeg" alt="" />
+            </div>
+            <div class="animation">
+              <img src="../images/seunghyukWithAcene.jpeg" alt="" />
+            </div>
           </div>
           <div class="archives_stickers size_2">
-            <div><img src="../images/stickers.jpeg" /></div>
+            <div class="animation"><img src="../images/stickers.jpeg" /></div>
           </div>
         </div>
       </section>
@@ -141,5 +153,18 @@
       src="https://kit.fontawesome.com/25567bc514.js"
       crossorigin="anonymous"
     ></script>
+    <script src="../js/scrollreveal.min.js"></script>
+    <script>
+      const sr = ScrollReveal({
+        distance: "60px",
+        duration: 2500,
+        delay: 400,
+      });
+      sr.reveal(`.texts`, { delay: 500, origin: "right" });
+      sr.reveal(`.logoImg`, { delay: 400, origin: "left" });
+      sr.reveal(`.subtitle`, { delay: 700, origin: "bottom" });
+      sr.reveal(`.animation`, { origin: "top", interval: 200 });
+      sr.reveal(`.archives_video`, { origin: "left", delay: 200 });
+    </script>
   </body>
 </html>
