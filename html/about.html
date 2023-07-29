@@ -13,7 +13,7 @@
     />
     <link rel="stylesheet" href="../style/default.css" />
     <link rel="stylesheet" href="../style/nav.css" />
-    <link rel="stylesheet" href="../style/footer-other.css" />
+    <link rel="stylesheet" href="../style/footer.css" />
     <link rel="stylesheet" href="../style/about.css" />
     <link
       rel="shortcut icon"
@@ -37,45 +37,46 @@
     </nav>
     <div class="container">
       <section class="section_about">
-        <h1>About Us</h1>
-        <div class="inner">
+        <h2 class="section_title">about</h2>
+        <div class="inner_container">
           <img src="../images/OPF_LOGO_CI.png" />
           <div class="texts">
-            <h2>Ordinary People's Factory™</h2>
-            <em>"The ordinary people who create extraordinary"</em>
-            <p>
-              OPF는 평범함이란 가치를 소중하게 생각합니다. <br />
-              가정과 친구 혹은 자아실현을 위해 노력하며 살아가는<br />
-              평범하지만 멋진 사람들에게, <br />
-              일상적으로 접근할 수 있는 아름다운 제품을 제공하고 싶습니다.
-            </p>
+            <h2>ORDINARY</h2>
+            <h2>&nbspPEOPLE'S</h2>
+            <h2>&nbspFACTORY</h2>
+          </div>
+          <div class="subtitle">
+            <p>"The ordinary people who create extraordinary"</p>
           </div>
         </div>
       </section>
       <section class="section_archives">
-        <h1>We Made This</h1>
-        <div class="swiper">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide">
-              <img src="../images/thumsUp.jpeg" />
-            </div>
-            <div class="swiper-slide">
-              <img src="../images/seunghyukWithAcene.jpeg" />
-            </div>
-            <div class="swiper-slide">
-              <img src="../images/daeyangWithHoodie.jpeg" />
-            </div>
-            <div class="swiper-slide">
-              <img src="../images/stickers.jpeg" />
+        <h2 class="section_title">We Made This</h2>
+        <div class="inner_container">
+          <div class="archives_video size2">
+            <video src="../images/video.mp4" autoplay muted loop></video>
+            <div>
+              <p>Extra<br />ordinary <br />Things</p>
             </div>
           </div>
-          <div class="swiper-button-prev"></div>
-          <div class="swiper-button-next"></div>
+          <div class="archives_clothes1 size_1">
+            <div><img src="../images/ls-tee.jpeg" alt="" /></div>
+            <div><img src="../images/tttt.jpeg" alt="" /></div>
+            <div><img src="../images/hoooodie.jpeg" alt="" /></div>
+          </div>
+          <div class="archives_clothes2 size_1">
+            <div><img src="../images/daeyangWithHoodie.jpeg" alt="" /></div>
+            <div><img src="../images/thumsUp.jpeg" alt="" /></div>
+            <div><img src="../images/seunghyukWithAcene.jpeg" alt="" /></div>
+          </div>
+          <div class="archives_stickers size_2">
+            <div><img src="../images/stickers.jpeg" /></div>
+          </div>
         </div>
       </section>
       <section class="section_members">
-        <h1>Members</h1>
-        <div class="items">
+        <h2 class="section_title">Members</h2>
+        <div class="inner_container">
           <div class="item">
             <img src="../images/seunghyuk.jpeg" />
             <div class="overlay">
@@ -140,22 +141,5 @@
       src="https://kit.fontawesome.com/25567bc514.js"
       crossorigin="anonymous"
     ></script>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-    <script>
-      const swiper = new Swiper(".swiper", {
-        // Optional parameters
-        direction: "horizontal",
-        loop: true,
-        // If we need pagination
-        pagination: {
-          el: ".swiper-pagination",
-        },
-        // Navigation arrows
-        navigation: {
-          nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev",
-        },
-      });
-    </script>
   </body>
 </html>

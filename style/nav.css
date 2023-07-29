@@ -57,3 +57,18 @@ nav .gnb a:hover {
     margin: 5px;
   }
 }
+@media (max-width: 540px) {
+  nav {
+    height: 50px;
+    width: 100%;
+  }
+  nav .logo img {
+    width: 50px;
+    margin-top: 5px;
+  }
+  nav .gnb a {
+    font-size: 12px;
+    padding: 5px;
+    margin: 5px;
+  }
+}

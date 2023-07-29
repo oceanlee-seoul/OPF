@@ -6,19 +6,14 @@ footer {
   z-index: 99;
   width: 100%;
   background-color: white;
-  border-top: 1px solid transparent;
   box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.124);
 }
 footer div {
-  position: absolute;
-  width: 100%;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
-  text-align: center;
+  margin-top: 10px;
+  width: 100%;
 }
 footer .fa-brands {
   display: inline-block;
@@ -41,9 +36,13 @@ footer span {
 
 /* Responsive Layout */
 @media (max-width: 767px) {
+  footer div {
+    margin-top: 3px;
+  }
+
   footer {
     height: 30px;
-    bottom: -30px;
+    bottom: -50px;
   }
   footer .fa-brands {
     font-size: 15px;
@@ -55,4 +54,15 @@ footer span {
     width: 13px;
     height: 13px;
   }
+}
+
+@media (min-width: 1536px) {
+}
+@media (min-width: 1280px) {
+}
+@media (min-width: 1024px) {
+}
+@media (min-width: 640px) {
+}
+@media (max-width: 640px) {
 }
