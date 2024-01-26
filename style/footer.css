@@ -1,10 +1,8 @@
 footer {
-  position: absolute;
-  display: inline-block;
-  bottom: -50px;
+  display: block;
   height: 50px;
-  z-index: 99;
   width: 100%;
+  border: 1px solid transparent;
   background-color: white;
   box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.124);
 }
@@ -42,7 +40,7 @@ footer span {
 
   footer {
     height: 30px;
-    bottom: -50px;
+    /* bottom: -50px; */
   }
   footer .fa-brands {
     font-size: 15px;
