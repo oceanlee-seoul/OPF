@@ -235,6 +235,7 @@ body {
 }
 .section_members .inner_container .item .overlay .text {
   position: absolute;
+  width: 100%;
   top: 50%;
   left: 50%;
   font-size: 1em;
@@ -322,7 +323,7 @@ body {
     opacity: 1;
   }
   .section_members .inner_container .item .overlay .text {
-    font-size: 0.8rem;
+    font-size: 0.55rem;
   }
 }
 @media (max-width: 640px) {
@@ -372,6 +373,6 @@ body {
     opacity: 1;
   }
   .section_members .inner_container .item .overlay .text {
-    font-size: 0.8rem;
+    font-size: 0.7rem;
   }
 }
