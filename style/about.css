@@ -238,7 +238,7 @@ body {
   width: 100%;
   top: 50%;
   left: 50%;
-  font-size: 0.8em;
+  font-size: 0.45em;
   color: white;
   transform: translate(-50%, -50%);
 }
