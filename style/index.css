@@ -78,6 +78,7 @@ body {
 }
 .main .page__list {
   margin-top: 60px;
+  margin-bottom: 40px;
   display: flex;
   justify-content: space-between;
   gap: 22px;
@@ -92,6 +93,39 @@ body {
   background-color: #f39220;
   color: white;
 }
+
+.music__player {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  background-color: #f39220;
+}
+.music__player .fa-pause {
+  font-size: 26px;
+  cursor: pointer;
+}
+.music__player .fa-play {
+  cursor: pointer;
+  font-size: 24px;
+}
+.music__player .fa-stop {
+  font-size: 27px;
+  cursor: pointer;
+  margin-right: 3px;
+}
+.music__player .fa-pause:hover,
+.music__player .fa-play:hover,
+.music__player .fa-stop:hover {
+  color: white;
+}
+
+.select {
+  color: white;
+}
+
 /* Responsive Layout */
 @media (max-width: 767px) {
   body {

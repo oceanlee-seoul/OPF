@@ -51,6 +51,11 @@
         <a href="../html/items.html">items</a>
         <a href="../html/contactus.html">contact us</a>
       </div>
+      <div class="music__player">
+        <i class="fa-solid fa-play select"></i>
+        <i class="fa-solid fa-pause"></i>
+        <audio src="../images/about/opf_theme.wav" autoplay loop></audio>
+      </div>
     </div>
     <footer>
       <div>
@@ -68,7 +73,22 @@
     <script>
       const logoAnchor = document.querySelector(".main__image__logo_anchor");
       const fontLogo = document.querySelector(".font");
+      const playBtn = document.querySelector(".fa-play");
+      const pauseBtn = document.querySelector(".fa-pause");
+      const themeSong = document.querySelector("audio");
 
+      
+
+      playBtn.addEventListener("click", () => {
+        themeSong.play();
+        pauseBtn.classList.remove("select");
+        playBtn.classList.add("select");
+      });
+      pauseBtn.addEventListener("click", () => {
+        themeSong.pause();
+        pauseBtn.classList.add("select");
+        playBtn.classList.remove("select");
+      });
       const onMouseOver = function () {
         fontLogo.style.opacity = 0;
       };
