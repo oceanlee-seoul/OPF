@@ -141,7 +141,7 @@ body {
     opacity: 1;
     pointer-events: all;
   }
-  .items .item span {
+  .items .item span.end {
     text-decoration: line-through;
   }
   .items .item p {
